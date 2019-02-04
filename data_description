@@ -1,0 +1,10 @@
+For an initial sample, I searched for job advertisements that contained the phrases “cyber defense” or 
+“cyber analyst” on the website Indeed to find companies that would likely hire a number of cyber security 
+professionals. Reviews for companies from Information Security Analysts, IT Security Specialists, Information
+Security Analysts, SERP Cyber Security Analysts, SERP & IT Principle Cybersecurity Analysts were included. This
+resulted in a sample of 128 reviews from 23 companies. 
+
+I scraped the websites using the ‘requests’ package available with python. The following variables were extracted 
+from each review: company, overall rating, worklife/balance rating, compensation and benefits rating, job security 
+rating, management rating, corporate culture rating, location (city, state), date review (Month, Day, Year), position,
+status, review, pros, cons. 
